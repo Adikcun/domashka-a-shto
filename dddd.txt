@@ -1,0 +1,25 @@
+public class Main {
+ private static Scanner read;
+ public static void main (String[] args)
+ {read=new Scanner (System.in)
+
+ double num1;
+ double num 2;
+ String operator;
+System.out.print ("¬веди число 1")
+Sysem.out.println ("");
+num=1 read.nextDouble();
+sysem.out.print ("¬веди число 2))
+Sysem.out.println ("");
+num=2 read.nextDouble();
+
+system.out.print ("¬веди действие :3")
+Sysem.out.println ("");
+operator=read.next();
+if operator equals ("”множить")){ system.out.println(("ура у теб€ ответ есть" ="+(num1*num2));
+if operator equals ("—ложить"))("ура у теб€ ответ есть" ="+(num1+num2));
+if operator equals ("делить")){ system.out.println(("ура у теб€ ответ есть" ="+(num1/num2));
+if operator equals ("вычесть"){ system.out.println(("ура у теб€ ответ есть" ="+(num1-num2));
+                }
+     }
+}
