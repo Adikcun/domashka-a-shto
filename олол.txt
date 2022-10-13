@@ -1,0 +1,50 @@
+import java.until.Scanner;
+class main {
+public static void ,main (String[] args)}
+ while (choose<6){
+        System.out.println("5 - кв уравнение");
+        System.out.println("4 - сложиц");
+        System.out.println("3 - вычетьс");
+        System.out.println("2 - дели (на ноль не буду, лень т.т");
+        System.out.println("1 - умножиц");
+        System.out.println("введи другую циферку");
+        choose = scunner.nextInt();
+
+
+        {
+        int number = input.nextInt();
+        if (number == 1) {
+        System.out.println("ваше число =" + " " + (число 1 + число 2));
+        }
+        if (number == 2) {
+        System.out.println("ваше число =" + " " + ( число 1- число2));
+        }
+        if (number == 3) {
+        System.out.println("ваше число =" + " " + (число 1 * число2));
+        }
+        if (number == 4) {
+        System.out.println("ваше число =" + " " + (число 1 / число 22));
+        }
+        if (number == 5) {
+        System.out.println("слишком мало, добавь ещё ");
+
+        double chislo3;
+        System.out.println("введи третье число ");
+        chislo3 = input.nextInt();
+        double D = (chislo2 * chislo2) - (4 * chislo1 * chislo3);
+        if (D < 0) {
+        System.out.println("Нет корней,лох");
+        }
+        if (D == 0) {
+        double x1 = (-chislo2 - 0) / (2 * chislo1);
+        System.out.println("ваше число =" + " " + x1);
+        }
+        if (D > 0) {
+        double x1 = (-chislo2 - Math.sqrt(D)) / (2 * chislo1);
+        double x2 = (-chislo2 + Math.sqrt(D)) / (2 * chislo1);
+        System.out.println("ваше число =" + " " + x1 + " " + x2);
+        }
+        }
+        }
+        System.out.println("пока");
+        povtoreni9 = input.nextInt();
